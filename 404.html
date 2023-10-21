@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.3.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:300,300italic,400,400italic,700,700italic%7CFira+Code:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+
+<title>404 Not Found</title>
+
+
+<link rel="alternate" href="/atom.xml" title="Sukwog" type="application/atom+xml">
+</head>
+
+<body>
+
+  <div class="we" id="we-crisis" style="opacity: 0;">
+    <div class="we-column" style="top: calc(100% - 420px); left: 200px; position: fixed;">
+        <div class="we-text we-text-large we-text-char"><div id="we-year" style="display: inline;">2022</div>年</div>
+        <div class="we-text we-text-normal we-text-red">知识荒原危机</div>
+        <div class="we-text we-text-small we-text-char">404-PAGE CRISIS</div>
+    </div>
+  </div>
+
+  <div class="we" id="we-countdown" style="opacity: 0;">
+    <div style="top: calc(100% - 400px); left: 150px; position: fixed;">
+      <div class="we-text we-text-inline we-text-normal" style="line-height: 0px; transform: translate(0, 0%)">距跳转主页</div>
+      <div class="we-column" style="margin-left: calc((3.5rem * 3) - 30px)">
+        <div class="we-text we-text-normal">
+          还剩
+          <div class="we-text-inline we-text-very-large we-text-red we-text-char" id="we-second">5</div>
+          秒
+        </div>
+        <div class="we-text we-text-very-small we-text-char">RETURNING HOMEPAGE IN<br>&nbsp;&nbsp;&nbsp;&nbsp;<div id="we-second-2" style="display: inline;">5</div> SECONDS</div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    .we {
+      transition: 0.6s;
+    }
+    .we-column {
+      padding-left: 20px;
+      border-left: 10px solid #ff0000;
+    }
+    .we-text {
+      color: #ffffff;
+      line-height: normal;
+      display: block;
+    }
+    .we-text-inline {
+      display: inline-block;
+    }
+    .we-text-red {
+      color: #ff0000;
+    }
+    .we-text-very-large {
+      font-size: 12rem;
+      line-height: 0;
+    }
+    .we-text-large {
+      font-size: 5rem;
+      line-height: 5rem;
+    }
+    .we-text-normal {
+      font-size: 3.5rem;
+      line-height: 4rem;
+    }
+    .we-text-small {
+      font-size: 2.1rem;
+      line-height: 3.2rem;
+    }
+    .we-text-very-small {
+      font-size: 2rem;
+      line-height: 3rem;
+    }
+    .we-text-char {
+      font-family: 'BoxedRegular';
+    }
+  </style>
+
+  <script>
+    (function() {
+      document.getElementById("we-year").innerHTML = (new Date()).getFullYear();
+
+      function setSecond(i) {
+        document.getElementById('we-second').innerHTML = i;
+        document.getElementById('we-second-2').innerHTML = i;
+      }
+
+      setTimeout(function() { document.getElementById("we-crisis").setAttribute('style', 'opacity: 1;'); }, 0);
+      setTimeout(function() { document.getElementById("we-crisis").setAttribute('style', 'opacity: 0;'); }, 2000);
+      setTimeout(function() { document.getElementById("we-countdown").setAttribute('style', 'opacity: 1;'); }, 3500);
+      setTimeout(function() { setSecond(4); }, 4500);
+      setTimeout(function() { setSecond(3); }, 5500);
+      setTimeout(function() { setSecond(2); }, 6500);
+      setTimeout(function() { setSecond(1); }, 7500);
+      setTimeout(function() { setSecond(0); window.location.href='/'; }, 8500);
+    })();
+  </script>
+
+</body>
+</html>

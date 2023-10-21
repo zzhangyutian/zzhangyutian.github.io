@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>zhangyt&#39;s Blog</title>
+  
+  <subtitle>zhangyt&#39;s Blog</subtitle>
+  <link href="https://zhangyt.pond.ink/atom.xml" rel="self"/>
+  
+  <link href="https://zhangyt.pond.ink/"/>
+  <updated>2023-09-28T23:33:00.000Z</updated>
+  <id>https://zhangyt.pond.ink/</id>
+  
+  <author>
+    <name>zhangyt</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello, World!</title>
+    <link href="https://zhangyt.pond.ink/hello-world/"/>
+    <id>https://zhangyt.pond.ink/hello-world/</id>
+    <published>2023-09-28T23:33:00.000Z</published>
+    <updated>2023-09-28T23:33:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>Hello, World!</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
